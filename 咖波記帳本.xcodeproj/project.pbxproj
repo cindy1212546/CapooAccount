@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570BED2320DFFE9900572367 /* ConceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570BED2220DFFE9800572367 /* ConceptViewController.swift */; };
+		570BED2520E0011000572367 /* ConceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570BED2420E0011000572367 /* ConceptView.swift */; };
+		571C9DED20DF726D009A2F7E /* EditRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C9DEC20DF726D009A2F7E /* EditRecordTableViewController.swift */; };
+		571C9DF120DF80BF009A2F7E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C9DF020DF80BF009A2F7E /* Record.swift */; };
+		571C9DF320DF8736009A2F7E /* NotificationObjectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C9DF220DF8736009A2F7E /* NotificationObjectKey.swift */; };
+		571C9DF520DFB26C009A2F7E /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C9DF420DFB26C009A2F7E /* detailViewController.swift */; };
 		5755F32720DE226E00285562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F32620DE226E00285562 /* AppDelegate.swift */; };
 		5755F32920DE226E00285562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F32820DE226E00285562 /* ViewController.swift */; };
 		5755F32C20DE226E00285562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5755F32A20DE226E00285562 /* Main.storyboard */; };
@@ -14,9 +20,28 @@
 		5755F33120DE226F00285562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5755F32F20DE226F00285562 /* LaunchScreen.storyboard */; };
 		5755F33C20DE226F00285562 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F33B20DE226F00285562 /* _____Tests.swift */; };
 		5755F34720DE226F00285562 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F34620DE226F00285562 /* _____UITests.swift */; };
+		5755F35520DE3A8800285562 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F35420DE3A8800285562 /* AccountController.swift */; };
+		5755F35B20DE3F7400285562 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F35A20DE3F7400285562 /* UIImage+Gif.swift */; };
+		5755F36920DE41FD00285562 /* gif in Resources */ = {isa = PBXBuildFile; fileRef = 5755F36820DE41FD00285562 /* gif */; };
+		5755F36F20DE917800285562 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F36E20DE917800285562 /* RecordTableViewController.swift */; };
+		5755F37120DE968400285562 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5755F37020DE968400285562 /* RecordTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		570BED1020DFD53400572367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570BED0B20DFD53300572367 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		570BED1220DFD53400572367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570BED0B20DFD53300572367 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
 		5755F33820DE226F00285562 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5755F31B20DE226E00285562 /* Project object */;
@@ -34,6 +59,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570BED0B20DFD53300572367 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		570BED2220DFFE9800572367 /* ConceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptViewController.swift; sourceTree = "<group>"; };
+		570BED2420E0011000572367 /* ConceptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptView.swift; sourceTree = "<group>"; };
+		571C9DEC20DF726D009A2F7E /* EditRecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordTableViewController.swift; sourceTree = "<group>"; };
+		571C9DF020DF80BF009A2F7E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		571C9DF220DF8736009A2F7E /* NotificationObjectKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObjectKey.swift; sourceTree = "<group>"; };
+		571C9DF420DFB26C009A2F7E /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		5755F32320DE226E00285562 /* 咖波記帳本.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "咖波記帳本.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5755F32620DE226E00285562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5755F32820DE226E00285562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,11 @@
 		5755F34220DE226F00285562 /* 咖波記帳本UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "咖波記帳本UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5755F34620DE226F00285562 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		5755F34820DE226F00285562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5755F35420DE3A8800285562 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		5755F35A20DE3F7400285562 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		5755F36820DE41FD00285562 /* gif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gif; sourceTree = "<group>"; };
+		5755F36E20DE917800285562 /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		5755F37020DE968400285562 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +111,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570BED0C20DFD53300572367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570BED1120DFD53400572367 /* Charts.framework */,
+				570BED1320DFD53400572367 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5755F31A20DE226E00285562 = {
 			isa = PBXGroup;
 			children = (
+				570BED0B20DFD53300572367 /* Charts.xcodeproj */,
 				5755F32520DE226E00285562 /* 咖波記帳本 */,
 				5755F33A20DE226F00285562 /* 咖波記帳本Tests */,
 				5755F34520DE226F00285562 /* 咖波記帳本UITests */,
@@ -97,9 +144,20 @@
 		5755F32520DE226E00285562 /* 咖波記帳本 */ = {
 			isa = PBXGroup;
 			children = (
+				5755F36820DE41FD00285562 /* gif */,
 				5755F32620DE226E00285562 /* AppDelegate.swift */,
+				571C9DF020DF80BF009A2F7E /* Record.swift */,
+				571C9DF220DF8736009A2F7E /* NotificationObjectKey.swift */,
 				5755F32820DE226E00285562 /* ViewController.swift */,
+				5755F35A20DE3F7400285562 /* UIImage+Gif.swift */,
 				5755F32A20DE226E00285562 /* Main.storyboard */,
+				570BED2220DFFE9800572367 /* ConceptViewController.swift */,
+				570BED2420E0011000572367 /* ConceptView.swift */,
+				571C9DF420DFB26C009A2F7E /* detailViewController.swift */,
+				571C9DEC20DF726D009A2F7E /* EditRecordTableViewController.swift */,
+				5755F36E20DE917800285562 /* RecordTableViewController.swift */,
+				5755F37020DE968400285562 /* RecordTableViewCell.swift */,
+				5755F35420DE3A8800285562 /* AccountController.swift */,
 				5755F32D20DE226F00285562 /* Assets.xcassets */,
 				5755F32F20DE226F00285562 /* LaunchScreen.storyboard */,
 				5755F33220DE226F00285562 /* Info.plist */,
@@ -215,6 +273,12 @@
 			mainGroup = 5755F31A20DE226E00285562;
 			productRefGroup = 5755F32420DE226E00285562 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 570BED0C20DFD53300572367 /* Products */;
+					ProjectRef = 570BED0B20DFD53300572367 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5755F32220DE226E00285562 /* 咖波記帳本 */,
@@ -224,12 +288,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		570BED1120DFD53400572367 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 570BED1020DFD53400572367 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		570BED1320DFD53400572367 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 570BED1220DFD53400572367 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		5755F32120DE226E00285562 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5755F33120DE226F00285562 /* LaunchScreen.storyboard in Resources */,
+				5755F36920DE41FD00285562 /* gif in Resources */,
 				5755F32E20DE226F00285562 /* Assets.xcassets in Resources */,
 				5755F32C20DE226E00285562 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5755F35520DE3A8800285562 /* AccountController.swift in Sources */,
 				5755F32920DE226E00285562 /* ViewController.swift in Sources */,
+				570BED2320DFFE9900572367 /* ConceptViewController.swift in Sources */,
+				5755F36F20DE917800285562 /* RecordTableViewController.swift in Sources */,
+				571C9DF520DFB26C009A2F7E /* detailViewController.swift in Sources */,
+				571C9DF320DF8736009A2F7E /* NotificationObjectKey.swift in Sources */,
+				571C9DED20DF726D009A2F7E /* EditRecordTableViewController.swift in Sources */,
+				570BED2520E0011000572367 /* ConceptView.swift in Sources */,
 				5755F32720DE226E00285562 /* AppDelegate.swift in Sources */,
+				5755F37120DE968400285562 /* RecordTableViewCell.swift in Sources */,
+				571C9DF120DF80BF009A2F7E /* Record.swift in Sources */,
+				5755F35B20DE3F7400285562 /* UIImage+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

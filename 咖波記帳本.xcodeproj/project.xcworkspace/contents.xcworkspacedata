@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:&#x5496;&#x6ce2;&#x8a18;&#x5e33;&#x672c;.xcodeproj">
+      location = "group:../Charts.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
