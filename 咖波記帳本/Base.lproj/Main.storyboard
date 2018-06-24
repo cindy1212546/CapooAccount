@@ -188,7 +188,7 @@
             </objects>
             <point key="canvasLocation" x="2564" y="34.729064039408868"/>
         </scene>
-        <!--Concept View Controller-->
+        <!--統計-->
         <scene sceneID="f1K-uz-pHa">
             <objects>
                 <viewController id="kho-uy-Pf6" customClass="ConceptViewController" customModule="咖波記帳本" customModuleProvider="target" sceneMemberID="viewController">
@@ -430,7 +430,7 @@
                         <color key="backgroundColor" red="1" green="0.87058823529999996" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="eQC-tE-cu0"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ho3-Ku-DGr"/>
+                    <navigationItem key="navigationItem" title="統計" id="zpo-DM-b4Z"/>
                     <connections>
                         <outlet property="cell1" destination="nWo-iH-BpM" id="KqB-V6-Gk8"/>
                         <outlet property="cell2" destination="SZt-mz-Ejb" id="lfh-6y-XqZ"/>
