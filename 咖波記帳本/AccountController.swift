@@ -21,7 +21,7 @@ class AccountController: UIViewController {
     
     
     @IBAction func changeGif(_ sender: Any) {
-        if(gifCount == 5) { gifCount = 0 }
+        if(gifCount == 6) { gifCount = 0 }
         else { gifCount += 1 }
         let gif = "gif/" + gifName[gifCount]
         gifImage.loadGif(name: gif)
